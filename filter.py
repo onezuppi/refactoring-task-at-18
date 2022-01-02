@@ -22,7 +22,7 @@ while i < a - 11:
                 arr[n][n1][0] = int(s // 50) * 50
                 arr[n][n1][1] = int(s // 50) * 50
                 arr[n][n1][2] = int(s // 50) * 50
-        j = j + 10
-    i = i + 10
+        j += 10
+    i += 10
 res = Image.fromarray(arr)
 res.save('res.jpg')
